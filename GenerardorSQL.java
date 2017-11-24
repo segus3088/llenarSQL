@@ -20,7 +20,7 @@ public class GenerardorSQL {
 	private int cantidadCampos = 0;
 
 	private void menu(){
-		log("estoy en el menu");
+		//log("estoy en el menu");
 		int opcion = 1;
 		while (opcion >= 1 || opcion <= 4) {
 		
@@ -55,6 +55,7 @@ public class GenerardorSQL {
 	}
 
 	private void generarSalida(){
+		//log("salida de archivo");
 		System.exit(0);
 	}
 
