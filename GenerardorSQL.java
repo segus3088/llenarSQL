@@ -58,7 +58,7 @@ public class GenerardorSQL {
 		//log("salida de archivo");
 		int tipoRegistro = 0;
 
-		log("INSERT INTO" + this.getTabla());
+		log("INSERT INTO " + this.getTabla());
 		log("VALUES (");
 
 		for (int i = 0 ;i < this.getcantidadRegistros() ; i++) {
