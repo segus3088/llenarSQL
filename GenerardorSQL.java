@@ -59,6 +59,18 @@ public class GenerardorSQL {
 		System.exit(0);
 	}
 
+	private String getTabla(){
+		return this.tabla;
+	}
+
+	private int getcantidadRegistros(){
+		return this.cantidadRegistros;
+	}
+
+	private int getTablacantidadCampos(){
+		return this.cantidadCampos;
+	}
+
 	private static void log(Object aMensajito){
 		System.out.println(String.valueOf(aMensajito));
 	}
