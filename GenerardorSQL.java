@@ -123,7 +123,7 @@ public class GenerardorSQL {
 				
 			}
 
-			if (i < this.getcantidadRegistros() ) {
+			if ((i-1) < this.getcantidadRegistros() ) {
 				log(", ");				
 			} else {
 				log(" ");
