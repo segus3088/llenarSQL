@@ -65,6 +65,7 @@ public class GenerardorSQL {
 			tipoRegistro = Integer.parseInt(JOptionPane.showInputDialog(null, "Para el campo " + i + "¿qué dato aleatorio quiere poner (0) un código, \n(1) un nombre, \n(2) un apellido, \n(3) una ciudad, \n(4) una dirección de correo, \n(5) una dirección de ciudad, \n(6) un tipo de sangre, \n(7) un número entero, \n(8) un número real, \n(9) una letra, \n(10) un texto aleatorio, \n(11) Una IPv4, \n(12) Una IPv6, \n(13) un texto formateado?"));
 			
 			if (tipoRegistro == 0) {
+				log();				
 				
 			} else if (tipoRegistro == 1) {
 				
@@ -92,6 +93,12 @@ public class GenerardorSQL {
 				
 			} else if (tipoRegistro == 13) {
 				
+			}
+
+			if (i < this.getcantidadRegistros() ) {
+				log(", ");				
+			} else {
+				log(" ");
 			}
 
 		}
